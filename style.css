@@ -1,0 +1,25 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.counter-details {
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+button {
+  margin: 0.5rem 0;
+  color: white;
+  padding: 0.5rem;
+  background-color: blue;
+  border: 2px solid white;
+}
